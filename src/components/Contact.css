@@ -1,0 +1,114 @@
+.form_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form {
+  display: inline-block;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  width: 100%;
+  padding: 1em;
+  color: white;
+  background-color: transparent;
+  border: solid white 0.5px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 1em;
+  margin: 4px;
+  backdrop-filter: blur(5px);
+
+}
+
+
+.form2 {
+  width: 100%;
+  padding: 1em;
+  color: white;
+  background-color: transparent;
+  border: solid white 0.5px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 1em;
+  margin: 4px;
+  backdrop-filter: blur(5px);
+}
+
+.message {
+  width: 100%;
+  height: 20em;
+  padding: 1em;
+  margin: 4px;
+  background-color: transparent;
+  border: solid white 0.5px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 1.1em;
+  color: white;
+  backdrop-filter: blur(5px);
+}
+
+.space {
+  padding-left: 4px;
+  padding-right: 2em;
+}
+
+.send {
+  color: white;
+  background: transparent;
+  width: 5.5em;
+  display: flex;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1.05rem;
+  margin: 3px;
+  border: 1px solid white;
+  border-radius: 8px;
+  transition: all 0.2s ease-out;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+
+.send:hover {
+  background-color: #f8f8f8;
+  color: black;
+}
+
+
+@media screen and (max-width: 960px) {
+  .form_container {
+    padding: 3em;
+  }
+
+
+  .name-container {
+    flex-direction: column;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .fn-form-wrap {
+    width: 100%;
+  }
+
+
+  .form {
+    margin-left: 14px;
+  }
+
+  .form2 {
+    width: 75%;
+  }
+
+  .message {
+    width: 75%;
+  }
+}
